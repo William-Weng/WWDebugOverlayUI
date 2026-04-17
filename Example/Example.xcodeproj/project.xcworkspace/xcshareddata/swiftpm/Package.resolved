@@ -1,0 +1,15 @@
+{
+  "originHash" : "92562165c186062fddc04ca711ee203daf4ebff05d953fd5f5e0f9fee6d67004",
+  "pins" : [
+    {
+      "identity" : "wwdebugoverlayui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWDebugOverlayUI",
+      "state" : {
+        "revision" : "01adb86367ea663a34eb14847ab333d784de54b5",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

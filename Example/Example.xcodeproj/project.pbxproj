@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		818143B52F91CC840069C574 /* WWDebugOverlayUI in Frameworks */ = {isa = PBXBuildFile; productRef = 818143B42F91CC840069C574 /* WWDebugOverlayUI */; };
+		819ED7C02F92245C00C761C8 /* WWDebugOverlayUI in Frameworks */ = {isa = PBXBuildFile; productRef = 819ED7BF2F92245C00C761C8 /* WWDebugOverlayUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818143B52F91CC840069C574 /* WWDebugOverlayUI in Frameworks */,
+				819ED7C02F92245C00C761C8 /* WWDebugOverlayUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				818143B42F91CC840069C574 /* WWDebugOverlayUI */,
+				819ED7BF2F92245C00C761C8 /* WWDebugOverlayUI */,
 			);
 			productName = Example;
 			productReference = 8177C5772F91CB0F00ACEA3E /* Example.app */;
@@ -109,7 +109,7 @@
 			mainGroup = 8177C56E2F91CB0F00ACEA3E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				818143B02F91CC020069C574 /* XCLocalSwiftPackageReference "../../@WWDebugOverlayUI" */,
+				819ED7BE2F92245C00C761C8 /* XCRemoteSwiftPackageReference "WWDebugOverlayUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8177C5782F91CB0F00ACEA3E /* Products */;
@@ -352,17 +352,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		818143B02F91CC020069C574 /* XCLocalSwiftPackageReference "../../@WWDebugOverlayUI" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../@WWDebugOverlayUI";
+/* Begin XCRemoteSwiftPackageReference section */
+		819ED7BE2F92245C00C761C8 /* XCRemoteSwiftPackageReference "WWDebugOverlayUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWDebugOverlayUI";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		818143B42F91CC840069C574 /* WWDebugOverlayUI */ = {
+		819ED7BF2F92245C00C761C8 /* WWDebugOverlayUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 818143B02F91CC020069C574 /* XCLocalSwiftPackageReference "../../@WWDebugOverlayUI" */;
+			package = 819ED7BE2F92245C00C761C8 /* XCRemoteSwiftPackageReference "WWDebugOverlayUI" */;
 			productName = WWDebugOverlayUI;
 		};
 /* End XCSwiftPackageProductDependency section */
